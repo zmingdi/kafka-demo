@@ -32,6 +32,8 @@
 --------------
 ## Kafka Springboot Integration
 ### create producer and consumer group    
+1. This application is to create a consumer group, with consumer the message from producer once, not a broadcast message. 
+To use broadcasting, just connect kafka as a consumer without group setting.
 8. create springboot application and import kafka dependencies.
 9. create startup configurations with different server.port param:
     1. -Dserver.port=8080
